@@ -8,7 +8,7 @@ costexplorer = boto3.client('ce')
 classicelblist = boto3.client('elb')
 dbs = boto3.client('rds')
 rgapi = boto3.client('resourcegroupstaggingapi')
-ebs = boto3.client('elasticbeanstalk')
+ebt = boto3.client('elasticbeanstalk')
 
 def filter_dbs(project,env):
     db = []
