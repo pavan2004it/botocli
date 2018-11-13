@@ -12,7 +12,9 @@ Once you have configured that you need to install Python and pip
 
 Post that install the package by issuing the command pip install directory of the package/*.whl
 
-Once the package is installed then you can start using the application by issuing the command botocli --help you should get the below response.
+Once the package is installed then you can start using the application.
+
+Issue the command botocli --help you will see the below response.
 
 Usage: botocli [OPTIONS] COMMAND [ARGS]...
 
@@ -32,6 +34,7 @@ Commands:
 From here you can select any of the subcommands with help option and you will get the complete command .
 
 botocli costs --help
+
 Usage: botocli costs [OPTIONS] COMMAND [ARGS]...
 
   Commands for showing costs
@@ -57,7 +60,9 @@ Options:
 Finally the complete command looks like botocli costs showtotal --project Devops
 
 botocli costs showtotal --project Devops
+
 Enter the days: 30
+
 {'TimePeriod': {'Start': '2018-10-14', 'End': '2018-11-01'}, 'Total': {'UnblendedCost': {'Amount': '8.7531046793', 'Unit
 ': 'USD'}}, 'Groups': [], 'Estimated': False}
 {'TimePeriod': {'Start': '2018-11-01', 'End': '2018-11-13'}, 'Total': {'UnblendedCost': {'Amount': '10.7107138938', 'Uni
@@ -66,3 +71,5 @@ t': 'USD'}}, 'Groups': [], 'Estimated': True}
 In this example we are shown the costs for the project Devops for a duration of 30 days.
 
 Similarly you can explore other commands.
+
+Note: I have tagged my resources in AWS by project, you may want to do the same.
