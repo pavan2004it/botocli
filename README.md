@@ -10,18 +10,32 @@ https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 
 Once you have configured that you need to install Python and pip
 
+
+
 Post that install the package by issuing the command pip install directory of the package/*.whl
+
+
 
 Once the package is installed then you can start using the application.
 
+
+
+
 Issue the command botocli --help you will see the below response.
+
+
+
 
 Usage: botocli [OPTIONS] COMMAND [ARGS]...
 
   botocli manages services in aws
 
+
+
 Options:
   --help  Show this message and exit.
+
+
 
 Commands:
   costs      Commands for showing costs
@@ -31,7 +45,11 @@ Commands:
   snapshots  Commands for snapshots
   volumes    Commands for volumes
 
+
+
 From here you can select any of the subcommands with help option and you will get the complete command .
+
+
 
 botocli costs --help
 
@@ -46,7 +64,11 @@ Commands:
   show
   showtotal
 
+
+
 botocli costs showtotal --help
+
+
 
 Usage: botocli costs showtotal [OPTIONS]
 
@@ -57,9 +79,14 @@ Options:
 
 
 
+
 Finally the complete command looks like botocli costs showtotal --project Devops
 
+
+
 botocli costs showtotal --project Devops
+
+
 
 Enter the days: 30
 
@@ -70,6 +97,9 @@ t': 'USD'}}, 'Groups': [], 'Estimated': True}
 
 In this example we are shown the costs for the project Devops for a duration of 30 days.
 
+
 Similarly you can explore other commands.
+
+
 
 Note: I have tagged my resources in AWS by project, you may want to do the same.
