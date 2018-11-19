@@ -103,4 +103,4 @@ Similarly you can explore other commands.
 
 
 
-Note: I have tagged my resources in AWS by project, you may want to do the same.
+Note: I have tagged my resources in AWS by project, you may want to do the same.The Autocomplete feature works in bash only as of now.
