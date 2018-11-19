@@ -10,6 +10,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 
 Once you have configured that you need to install Python and pip
 
+https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html
 
 
 Post that install the package by issuing the command pip install directory of the package/*.whl
